@@ -1,12 +1,6 @@
 import React from "react";
+import {STATUS_OPTIONS} from "../utilities/StatusOptions";
 import "../style.css";
-
-const STATUS_OPTIONS = [
-  {"val": "all", "display": "All"},
-  {"val": "in-progress", "display": "In progress"},
-  {"val":"waiting", "display": "Waiting"},
-  {"val":"completed", "display": "Completed"}
-];
 
 export default function StatusFilter({setFn}) {
 
